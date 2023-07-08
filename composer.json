@@ -1,0 +1,22 @@
+{
+    "name": "luistoledo/bienesraices",
+    "description": "creando proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "luis toledo",
+            "email": "ventas@thagencia.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
